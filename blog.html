@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+      background:url("my_image.jpg");
+      background-size: 20px;
+      background-color: #cccccc;
+      }
+      .sidenav {
+      height: 90%;
+      width: 220px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      <!-- background:url("my_image.jpg"); -->
+      <!-- background-size: 500px; -->
+      background-color: navy;
+      overflow-x: hidden;
+      padding-top: 20px;
+      border: 10px groove lightblue;
+      }
+
+      .sidenav a {
+      padding: 6px 8px 6px 10px;
+      font-size: 25px;
+      font-weight: 900;
+      font-family:tw cen mt;
+      color: navy;
+      display: block;
+      }
+
+      .sidenav a:hover {
+      color: royalblue;
+      }
+
+      .main {
+      margin-left: 200px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+      }
+
+      .about {
+      margin-left: 200px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+      }
+
+
+      @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+      }
+    </style>
+  </head>
+  <body>
+
+
+
+    <div class="sidenav">
+      <a href="https://cseweb.ucsd.edu/" align="center">
+	<img src="http://www.sysnet.ucsd.edu/~voelker/pubcom/logo/CSELogo_4Ch.jpg" style="width:200px; align:center;" >
+      </a>
+      <a href="#home">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="#research">Research Areas of Interest</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+
+
+    <div class="about" id="about">      
+	<b>Hi! My name is Chris, and I'm a current student at University of California, San Diego, pursuing a Ph.D in the Computer Science and Engineering Department. My advisor is Alex Orialoglu, you can find his homepage <a href="http://cseweb.ucsd.edu/~alex/" style="visited">here</a>.</b>
+    </div>
+
+    <footer >
+      <p>  <a href="https://https://cseweb.ucsd.edu/~chnigh/"</a> </p>
+    </footer>
+
+
+  </body>
+</html>
